@@ -1,4 +1,5 @@
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/wcloosterman/menu/main/menu_items.csv" -OutFile "C:\Windows\Temp\menu_items.csv"
+Install-Module -Name PSScriptMenuGui
 #region Setup
 Set-Location $PSScriptRoot
 Remove-Module PSScriptMenuGui -ErrorAction SilentlyContinue
