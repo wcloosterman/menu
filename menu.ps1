@@ -1,3 +1,4 @@
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/wcloosterman/menu/main/menu_items.csv" -OutFile "C:\Windows\Temp\menu_items.csv"
 #region Setup
 Set-Location $PSScriptRoot
 Remove-Module PSScriptMenuGui -ErrorAction SilentlyContinue
@@ -11,4 +12,4 @@ catch {
 }
 #endregion
 
-Show-ScriptMenuGui -csvPath 'https://raw.githubusercontent.com/wcloosterman/menu/main/menu_items.csv' -Verbose
+Show-ScriptMenuGui -csvPath 'C:\Windows\Temp\menu_items.csv' -Verbose
