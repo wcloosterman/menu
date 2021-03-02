@@ -1,4 +1,4 @@
 ﻿Section,Method,Command,Arguments,Name,Description
 Windows 10,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/debloat'))
 ",,Debloat Windows 10,
-Office365,powershell_file,C:\Users\wcloosterman\OneDrive - Commuserv\Scripts\Connect to Office365.ps1,,Connect to Office365 PowerShell,
+Office365,powershell_inline,"https://raw.githubusercontent.com/wcloosterman/menu/main/Connect%20to%20Office365.ps1",,Connect to Office365 PowerShell,
