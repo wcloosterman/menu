@@ -11,4 +11,4 @@ catch {
 }
 #endregion
 
-Show-ScriptMenuGui -csvPath '.\menu_items.csv' -Verbose
+Show-ScriptMenuGui -csvPath 'https://raw.githubusercontent.com/wcloosterman/menu/main/menu_items.csv' -Verbose
