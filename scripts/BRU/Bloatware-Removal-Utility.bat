@@ -16,8 +16,9 @@ net session >nul 2>&1
             BRU-uninstall-helpers\streams.exe /accepteula -s -d BRU-uninstall-helpers\*.vbs
         )
 
-	PowerShell.exe -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell.exe -ArgumentList '-NoProfile -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden -File ""%~dpn0.ps1""' -Verb RunAs}"
-	exit
+powershell.exe -noprofile -executionpolicy bypass -file .\Bloatware-Removal-Utility.ps1 -s -nd -include "Adobe\ Air|Air" -exclude "keyboard","driver","HP Universal Camera Driver","HP Hotkey Support","HP Wireless Button Driver" -includelast "HP Client Security Manager","HP Support Assistant" -win10leavestartmenuadson -win10leaverecommendedappsdownloadon -norestorepoint
+	pause
+    rem exit
 
     ) else (
 
