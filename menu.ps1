@@ -6,5 +6,4 @@ Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
 Install-Module -Name PSScriptMenuGui
 Set-Location $PSScriptRoot
 Import-Module PSScriptMenuGui -ErrorAction Stop
-Show-ScriptMenuGui -csvPath 'C:\Windows\Temp\menu_items.csv' -Verbose
-#-hideConsole when all is OK
+Show-ScriptMenuGui -csvPath 'C:\Windows\Temp\menu_items.csv' -hideConsole
