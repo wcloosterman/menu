@@ -8,4 +8,4 @@ Office365,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadStri
 Office365,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Force%20AzureAD%20Sync.ps1'))",-NoExit,Force AzureAD Resync,NOT Working
 Operating System,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Clean%20All%20Temp%20Files%20Etc.ps1'))",-NoExit,Clean All Temp Files,Working
 Applications,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))",,Install Chocolatey,Run this before installing Apps
-Applications,cmd,"choco install google-chrome-for-enterprise",,Install Google Chome,Enterprise Edition
+Applications,cmd,cmd.exe /c "choco install google-chrome-for-enterprise",,Install Google Chome,Enterprise Edition
