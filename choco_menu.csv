@@ -1,2 +1,3 @@
 ﻿Section,Method,Command,Arguments,Name,Description
-Applications,powershell_inline,"Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))	",,"Install Chocolatey	",Run this before installing Apps
+1. Enable Package Installation,powershell_inline,"Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))	",,"Install Chocolatey	",Run this before installing Apps
+Application Test,powershell_inline,"choco install google-chrome-for-enterprise --force --ignore-checksums -y",,Google Chrome,For Enterprise
