@@ -1,7 +1,7 @@
 ﻿Section,Method,Command,Arguments,Name,Description
 Windows 10,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/debloat'))
 ",-NoExit,Debloat Windows 10,Standard De-Bloat Tools
-Windows 10,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/BRU.ps1'))",-NoExit,Debloat Experimental,
+Windows 10,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Bloatware%20Removal%20Utility.ps1'))",-NoExit,Debloat Experimental,
 Windows 10,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Upgrade%20Windows%2010.ps1'))
 ",,Upgrade Windows 10,Upgrade Windows 10 to Latest Build
 Office365,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Connect%20to%20Office365.ps1'))",-NoExit,Connect to Office365 PowerShell,Connect to Office365 Management Shell
