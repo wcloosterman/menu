@@ -2,3 +2,4 @@
 Windows 10,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/debloat'))
 ",-NoExit,Debloat Windows 10,
 Office365,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Connect%20to%20Office365.ps1'))",-NoExit,Connect to Office365 PowerShell,
+Operating System,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://www.powershellgallery.com/packages/CATE/4.5/Content/CATE.ps1'))",-NoExit,Clean All Temp Files,
