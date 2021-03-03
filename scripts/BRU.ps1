@@ -13,3 +13,6 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/OfficeDev/Office-IT-Pr
 
 Invoke-WebRequest -Uri "https://github.com/wcloosterman/menu/raw/main/scripts/BRU-uninstall-helpers.zip" -outfile "C:\Windows\TEMP\BRU-Helpers.zip"
 Expand-Archive -Path C:\Windows\TEMP\BRU-Helpers.zip -DestinationPath C:\BRU\ -Force
+
+# Run BRU
+C:\BRU\Bloatware-Removal-Utility.bat
