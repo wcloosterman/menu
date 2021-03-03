@@ -5,4 +5,4 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/wcloosterman/menu/main
 Install-Module -Name PSScriptMenuGui
 Set-Location $PSScriptRoot
 Import-Module PSScriptMenuGui -ErrorAction Stop
-Show-ScriptMenuGui -csvPath 'C:\Windows\Temp\menu_items.csv' -Verbose
+Show-ScriptMenuGui -csvPath 'C:\Windows\Temp\choco_menu.csv' -Verbose
