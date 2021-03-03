@@ -2,7 +2,7 @@
 Windows 10,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/debloat'))
 ",-NoExit,Debloat Windows 10,Standard De-Bloat Tools
 Windows 10,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Upgrade%20Windows%2010.ps1'))
-",-NoExit,Upgrade Windows 10,Upgrade Windows 10 to Latest Build
+",,Upgrade Windows 10,Upgrade Windows 10 to Latest Build
 Office365,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Connect%20to%20Office365.ps1'))",-NoExit,Connect to Office365 PowerShell,Connect to Office365 Management Shell
 Office365,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Force%20AzureAD%20Sync.ps1'))",-NoExit,Force AzureAD Resync,NOT Working
 Operating System,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Clean%20All%20Temp%20Files%20Etc.ps1'))",-NoExit,Clean All Temp Files,Working
