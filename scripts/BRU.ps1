@@ -15,4 +15,4 @@ Invoke-WebRequest -Uri "https://github.com/wcloosterman/menu/raw/main/scripts/BR
 Expand-Archive -Path C:\Windows\TEMP\BRU-Helpers.zip -DestinationPath C:\BRU\ -Force
 
 # Run BRU
-C:\BRU\Bloatware-Removal-Utility.bat
+Start-Process "cmd.exe"  "/c C:\BRU\Bloatware-Removal-Utility.bat"
