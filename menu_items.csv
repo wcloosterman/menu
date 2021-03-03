@@ -1,5 +1,5 @@
 ﻿Section,Method,Command,Arguments,Name,Description
 Windows 10,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/debloat'))
 ",-NoExit,Debloat Windows 10,
-Office365,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Connect%20to%20Office365.ps1'))",-NoExit,Connect to Office365 PowerShell,
-Operating System,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/cate.ps1'))",-NoExit,Clean All Temp Files,
+Office365,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Connect%20to%20Office365.ps1'))",-NoExit,Connect to Office365 PowerShell,
+Operating System,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/cate.ps1'))",-NoExit,Clean All Temp Files,
