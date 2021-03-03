@@ -16,3 +16,4 @@ Expand-Archive -Path C:\Windows\TEMP\BRU-Helpers.zip -DestinationPath C:\BRU\ -F
 
 # Run BRU
 Start-Process "cmd.exe"  "/c C:\BRU\Bloatware-Removal-Utility.bat"
+Exit
