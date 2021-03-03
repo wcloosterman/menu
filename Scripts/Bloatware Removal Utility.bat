@@ -16,7 +16,7 @@ net session >nul 2>&1
             BRU-uninstall-helpers\streams.exe /accepteula -s -d BRU-uninstall-helpers\*.vbs
         )
 
-powershell.exe -noprofile -executionpolicy bypass -file .\Bloatware-Removal-Utility.ps1 -s -nd -include "Adobe\ Air|Air" -exclude "keyboard","driver","HP Universal Camera Driver","HP Hotkey Support","HP Wireless Button Driver" -includelast "HP Client Security Manager","HP Support Assistant" -norestorepoint
+powershell.exe -noprofile -executionpolicy bypass -file C:\BRU\Bloatware-Removal-Utility.ps1 -s -exclude "keyboard","driver","HP Universal Camera Driver","HP Hotkey Support","HP Wireless Button Driver" -includelast "HP Client Security Manager","HP Support Assistant" -norestorepoint
 	pause
     rem exit
 
