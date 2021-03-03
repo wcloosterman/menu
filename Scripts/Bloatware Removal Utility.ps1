@@ -5,7 +5,7 @@ mkdir 'C:\BRU'
 mkdir 'C:\BRU\BRU-uninstall-helpers'
 
 # Download helper files
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/arcadesdude/BRU/master/Bloatware-Removal-Utility.bat" -outfile "C:\BRU\Bloatware-Removal-Utility.bat"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Bloatware%20Removal%20Utility.bat" -outfile "C:\BRU\Bloatware-Removal-Utility.bat"
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/arcadesdude/BRU/master/Bloatware-Removal-Utility.ps1" -outfile "C:\BRU\Bloatware-Removal-Utility.ps1"
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/OfficeDev/Office-IT-Pro-Deployment-Scripts/master/Office-ProPlus-Deployment/Deploy-OfficeClickToRun/OffScrubc2r.vbs" -outfile "C:\BRU\BRU-uninstall-helpers\OffScrubc2r.vbs"
 
