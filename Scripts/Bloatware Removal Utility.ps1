@@ -1,8 +1,8 @@
 # Bloatware Removal Utility
 
 # Make Directories
-mkdir 'C:\BRU'
-mkdir 'C:\BRU\BRU-uninstall-helpers'
+New-Item -ItemType Directory -Force -Path 'C:\BRU'
+New-Item -ItemType Directory -Force -Path 'C:\BRU\BRU-uninstall-helpers'
 
 # Download helper files
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Bloatware%20Removal%20Utility.bat" -outfile "C:\BRU\Bloatware-Removal-Utility.bat"
