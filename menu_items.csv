@@ -10,4 +10,4 @@ Office365,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadStri
 Operating System,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Clean%20All%20Temp%20Files%20Etc.ps1'))",-NoExit,Clean All Temp Files,Working
 Applications,powershell_inline,"[System.Net.WebRequest]::DefaultWebProxy.Credentials = [System.Net.CredentialCache]::DefaultCredentials; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))",,Install Chocolatey,This MUST be run prior to installing applications
 Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install google-chrome-for-enterprise --force --ignore-checksums -y",Google Chrome,Enterprise Edition. Will complain about a broken install (Safe to ignore)
-Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install firefox --force --ignore-checksums -y",,Firefox,Mozilla Firefox
+Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install firefox --force --ignore-checksums -y",Firefox,Mozilla Firefox
