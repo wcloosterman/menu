@@ -6,7 +6,9 @@ Remove-Item C:\BRU -Recurse -ErrorAction Ignore
 # Remove Windows Update Assistant
 $dt=[environment]::GetFolderPath([System.Environment+SpecialFolder]::Desktop)
 Remove-Item -Path "$dt\Windows 10 Update Assistant.lnk" -Force
+Remove-Item C:\Windows10Upgrade -Recurse -ErrorAction Ignore 
 
 # Remove files in C:\Windows\TEMP
 Remove-Item -Path "C:\Windows\Temp\*.bat" -Force
 Remove-Item -Path "C:\Windows\Temp\*.ps1" -Force
+
