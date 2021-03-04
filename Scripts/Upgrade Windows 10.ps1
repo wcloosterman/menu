@@ -1,5 +1,5 @@
-$dir = 'C:\Support'
-mkdir $dir
+$dir = "C:\Windows\Temp"
+New-Item -ItemType Directory -Force -Path 'C:\Support'
 $webClient = New-Object System.Net.WebClient
 $url = 'https://go.microsoft.com/fwlink/?LinkID=799445'
 $file = "$($dir)\Win10Upgrade.exe"
