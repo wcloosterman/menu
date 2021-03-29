@@ -14,4 +14,5 @@ Applications,powershell_inline,"[System.Net.WebRequest]::DefaultWebProxy.Credent
 Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install google-chrome-for-enterprise --force --ignore-checksums -y",Google Chrome,Enterprise Edition. Will complain about a broken install (Safe to ignore)
 Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install firefox --force --ignore-checksums -y",Firefox,Mozilla Firefox
 Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install adobereader --force --ignore-checksums -y",Adobe Reader,Adober Reader DC
-Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install 7zip --force --ignore-checksums -y",7zip,
+Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install 7zip --force --ignore-checksums -y",7zip,7-Zip
+Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install jre8 --force --ignore-checksums -y",Java,Java Runtime Environment 8
