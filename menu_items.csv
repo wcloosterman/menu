@@ -14,3 +14,4 @@ Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install firefox --force 
 Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install adobereader --force --ignore-checksums -y",Adobe Reader,Adober Reader DC
 Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install 7zip --force --ignore-checksums -y",7zip,7-Zip
 Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install jre8 --force --ignore-checksums -y",Java,Java Runtime Environment 8
+Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install office365business --force --ignore-checksums -y",Office 365,Business Edition
