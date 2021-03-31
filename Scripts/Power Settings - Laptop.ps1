@@ -14,4 +14,5 @@ powercfg /SETACVALUEINDEX SCHEME_CURRENT 2a737441-1930-4402-8d77-b2bebba308a3 48
 powercfg /setacvalueindex scheme_current sub_buttons lidaction 0
 powercfg /setdcvalueindex scheme_current sub_buttons lidaction 0
 
-
+# Make powerscheme active immediately
+powercfg /setactive scheme_current
