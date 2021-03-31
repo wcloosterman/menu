@@ -1,5 +1,5 @@
 # Monitor Settings - 20 Minutes
-Powercfg /Change monitor-timeout-ac 20
+Powercfg /Change monitor-timeout-ac 60
 
 # Sleep Settings - 5 Hours
 Powercfg /Change standby-timeout-ac 300
