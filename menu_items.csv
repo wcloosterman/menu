@@ -8,9 +8,4 @@ Windows 10,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadStr
 Office365,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Connect%20to%20Office365.ps1'))",-NoExit,Connect to Office365 PowerShell,Connect to Office365 Management Shell
 Operating System,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Clean%20All%20Temp%20Files%20Etc.ps1'))",-NoExit,Clean All Temp Files,CATE
 Applications,powershell_inline,"[System.Net.WebRequest]::DefaultWebProxy.Credentials = [System.Net.CredentialCache]::DefaultCredentials; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))",,Install Chocolatey,This MUST be run prior to installing applications
-Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install google-chrome-for-enterprise --force --ignore-checksums -y",Google Chrome,Enterprise Edition. Will complain about a broken install (Safe to ignore)
-Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install firefox --force --ignore-checksums -y",Firefox,Mozilla Firefox
-Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install adobereader --force --ignore-checksums -y",Adobe Reader,Adober Reader DC
-Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install 7zip --force --ignore-checksums -y",7zip,7-Zip
-Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install jre8 --force --ignore-checksums -y",Java,Java Runtime Environment 8
-Applications,cmd,"c:\ProgramData\chocolatey\choco.exe","install office365business --force --ignore-checksums -y",Office 365,Business Edition
+Applications,powershell_inline,"[System.Net.WebRequest]::DefaultWebProxy.Credentials = [System.Net.CredentialCache]::DefaultCredentials; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Standard%20Apps.ps1'))",Install Standard Apps,Google Chrome + Firefox + 7-zip + Adobe Reader
