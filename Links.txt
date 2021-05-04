@@ -1,4 +1,4 @@
-FileTypesMan v1.95 - File Types Manager for Windows
+FileTypesMan - File Types Manager for Windows
 ===================================================
 URL: https://www.nirsoft.net/utils/file_types_manager.html
 Download URL (x86): https://www.nirsoft.net/utils/filetypesman.zip
