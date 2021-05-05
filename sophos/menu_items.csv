@@ -99,5 +99,5 @@ Ukaria,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString(
 Wakeful Partners,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Upgrade%20Windows%2010.ps1'))",,Blank,Blank
 Wallace Vroulis Bond,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Upgrade%20Windows%2010.ps1'))",,Blank,Blank
 Wiring Solutions Plus,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Upgrade%20Windows%2010.ps1'))",,Blank,Blank
-Xeppo
+Xeppo,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Upgrade%20Windows%2010.ps1'))",,Blank,Blank
 
