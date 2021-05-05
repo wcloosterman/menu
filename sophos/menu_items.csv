@@ -1,1 +1,1 @@
-Sophos Installs,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Upgrade%20Windows%2010.ps1'))",,1836 Conveyancing,
+Sophos Installs,powershell_inline,"iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wcloosterman/menu/main/Scripts/Upgrade%20Windows%2010.ps1'))",1836 Conveyancing,,
