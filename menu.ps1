@@ -15,6 +15,6 @@ $params = @{
     hideConsole = $true
     noExit = $true
     Verbose = $true
-    button.Size = 'New-Object System.Drawing.Size(100,100)'
+    button.Size = 100,100
 }
 Show-ScriptMenuGui @params
