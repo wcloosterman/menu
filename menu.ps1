@@ -5,6 +5,15 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/wcloosterman/menu/main
 Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
 Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
 Install-Module -Name PSScriptMenuGui
-#Set-Location $PSScriptRoot
+Set-Location $PSScriptRoot
 Import-Module PSScriptMenuGui -ErrorAction Stop
-Show-ScriptMenuGui -csvPath 'C:\Windows\Temp\menu_items.csv' -hideConsole
+$params = @{
+    csvPath = 'C:\Windows\Temp\menu_items.csv'
+    windowTitle = 'Commuserv Shared Scripts'
+    buttonForegroundColor = 'Azure'
+    buttonBackgroundColor = '#eb4034'
+    hideConsole = $true
+    noExit = $true
+    Verbose = $true
+}
+Show-ScriptMenuGui @params
