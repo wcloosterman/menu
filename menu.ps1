@@ -7,6 +7,7 @@ Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
 Install-Module -Name PSScriptMenuGui
 Set-Location $PSScriptRoot
 Import-Module PSScriptMenuGui -ErrorAction Stop
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/wcloosterman/menu/main/files/favicon.ico" -OutFile "C:\Windows\Temp\favicon.ico"
 $params = @{
     csvPath = 'C:\Windows\Temp\menu_items.csv'
     windowTitle = 'Commuserv Shared Scripts'
@@ -15,6 +16,6 @@ $params = @{
     hideConsole = $true
     noExit = $true
     Verbose = $true
-    iconpath = 'https://raw.githubusercontent.com/wcloosterman/menu/main/files/favicon.ico'
+    iconpath = 'C:\Windows\Temp\favicon.ico'
 }
 Show-ScriptMenuGui @params
