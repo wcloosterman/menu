@@ -15,5 +15,6 @@ $params = @{
     hideConsole = $true
     noExit = $true
     Verbose = $true
+    iconpath = 'https://raw.githubusercontent.com/wcloosterman/menu/main/files/favicon.ico'
 }
 Show-ScriptMenuGui @params
