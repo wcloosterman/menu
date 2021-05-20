@@ -15,8 +15,8 @@ $params = @{
     buttonForegroundColor = 'Azure'
     buttonBackgroundColor = '#00a3ae'
     hideConsole = $true
-    noExit = $true
-    Verbose = $true
+    noExit = $false
+    Verbose = $false
     iconpath = '..\..\..\Support\favicon.ico'
 }
 Show-ScriptMenuGui @params
